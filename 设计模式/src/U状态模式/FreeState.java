@@ -1,0 +1,13 @@
+package U×´Ì¬Ä£Ê½;
+
+/**
+ * ¿ÕÏÐ×´Ì¬
+ */
+public class FreeState implements State {
+
+	@Override
+	public void handle() {
+		System.out.println("---·¿¼ä¿ÕÏÐ£¡");
+	}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<books>
+  <book1 id="1" date="2019">
+    <name>射雕英雄传</name>
+    <author>金庸</author>
+    <price>10$</price>
+  </book1>
+</books>

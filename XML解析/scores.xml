@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 声明内部DTD, 约束.xml文件格式 
+<!DOCTYPE scores[
+	<!ELEMENT scores (student*)>
+	<!ELEMENT student (name,course,score)>
+	<!ATTLIST student id CDATA #IMPLIED>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT course (#PCDATA)>
+	<!ELEMENT score (#PCDATA)>
+]>
+-->
+
+<!-- 使用引用外部DTD , 约束.xml文件格式-->
+<!DOCTYPE scores SYSTEM "scores.dtd">
+
+<scores>
+	<student id="1" class="1">
+		<name>小王</name>
+		<course>JAVA</course>
+		<score>89</score>
+	</student>
+	<student id="2" class="1">
+		<name>小李</name>
+		<course>数学</course>
+		<score>88</score>
+	</student>
+	<student id="3" class="2">
+		<name>小黑</name>
+		<course>English</course>
+		<score>100</score>
+	</student>
+		<student id="4" class="2">
+		<name>小刘</name>
+		<course>Computer</course>
+		<score>86</score>
+	</student>
+</scores>
